@@ -212,6 +212,7 @@ Of course, the schema builder contains a variety of column types that you may sp
 
 Command  |  Description
 -------  |  -----------
+`$table->belongs('users');`     |  Adds `user_id` UNSIGNED INTEGER and a FOREIGN KEY to `users.id`
 `$table->bigIncrements('id');`  |  Auto-incrementing UNSIGNED BIGINT (primary key) equivalent column.
 `$table->bigInteger('votes');`  |  BIGINT equivalent column.
 `$table->binary('data');`  |  BLOB equivalent column.
